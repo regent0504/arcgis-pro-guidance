@@ -8,7 +8,7 @@
 | 搜尋索引、頁面位置索引 | 打包進 Worker | Worker 啟動時解析一次，之後每次請求只花 1–5 ms CPU |
 | JSONL 語料分片、同步覆寫頁 | R2 | `/api/page` 用 byte-range 只讀取需要的那一頁 |
 | `llms-full.txt`、`llms/<章節>.txt` 完整包 | R2 | 事先建好，直接串流，R2 對外流量免費 |
-| 每日同步 doc.esri.com | GitHub Actions | 每天台灣時間 03:17 執行，跑完自動重新部署 |
+| 每日同步 doc.esri.com | GitHub Actions | 每天台灣時間 03:30 執行，跑完自動重新部署 |
 
 Cloudflare 上的 API 是**唯讀**的：`/api/sync/*` 的寫入操作會回 501，改由 GitHub Actions 同步。
 

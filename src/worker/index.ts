@@ -21,6 +21,8 @@ import {
   type ChapterKey,
   type CollectionReport,
   type DocCard,
+  type GitHubActionsSchedule,
+  type GitHubActionsScheduledRun,
   type PageDetail,
   type SyncPageOverride,
   type SyncStatusResponse,
@@ -78,6 +80,12 @@ const OVERRIDE_MAP = new Map(
 
 /** Free plan allows 50 subrequests per request; keep dynamic bundles well under that. */
 const MAX_DYNAMIC_BUNDLE_PAGES = 40;
+
+const GITHUB_WORKFLOW_PATH = 'regent90/arcgis-pro-guidance/actions/workflows/sync-and-deploy.yml';
+const GITHUB_ACTIONS_SCHEDULE: GitHubActionsSchedule = {
+  dailyTimeTaipei: '03:30',
+  workflowUrl: `https://github.com/${GITHUB_WORKFLOW_PATH}`,
+};
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -225,6 +233,41 @@ async function handleBundle(
 // Router
 // ---------------------------------------------------------------------------
 
+async function latestScheduledRun(): Promise<Response> {
+  try {
+    const upstream = await fetch(
+      `https://api.github.com/repos/${GITHUB_WORKFLOW_PATH}/runs?branch=main&event=schedule&per_page=1`,
+      {
+        headers: {
+          Accept: 'application/vnd.github+json',
+          'User-Agent': 'ArcGIS-Pro-Docs-AI-Gateway',
+          'X-GitHub-Api-Version': '2022-11-28',
+        },
+        signal: AbortSignal.timeout(5000),
+        cf: { cacheEverything: true, cacheTtlByStatus: { '200': 300, '201-599': -1 } },
+      }
+    );
+    if (!upstream.ok) throw new Error(`GitHub returned HTTP ${upstream.status}`);
+    const data = await upstream.json<{
+      workflow_runs: Array<{
+        id: number;
+        created_at: string;
+        status: string;
+        conclusion: string | null;
+      }>;
+    }>();
+    const run = data.workflow_runs[0];
+    const result: GitHubActionsScheduledRun | null = run
+      ? { id: run.id, createdAt: run.created_at, status: run.status, conclusion: run.conclusion }
+      : null;
+    return json(result, { cors: false, cache: 'public, max-age=60' });
+  } catch {
+    return json({ error: '暫時無法讀取 GitHub Actions 執行結果' }, {
+      status: 503, cors: false, cache: 'no-store',
+    });
+  }
+}
+
 async function handleApi(request: Request, env: Env, url: URL): Promise<Response | null> {
   const p = url.pathname;
 
@@ -235,7 +278,12 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
   // Sync is done by the scheduled GitHub Actions workflow on Cloudflare; the API is read-only.
   if (p.startsWith('/api/sync/')) {
     if (p === '/api/sync/status' && request.method === 'GET') {
-      return json(META.sync, { cors: false, cache: 'no-store' });
+      return json({ ...META.sync, githubActionsSchedule: GITHUB_ACTIONS_SCHEDULE }, {
+        cors: false, cache: 'no-store',
+      });
+    }
+    if (p === '/api/sync/scheduled-run' && request.method === 'GET') {
+      return latestScheduledRun();
     }
     return json(
       {

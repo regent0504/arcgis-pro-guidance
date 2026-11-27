@@ -4,6 +4,8 @@ import {
   CHAPTER_KEYS,
   CHAPTER_LABELS,
   type ChapterKey,
+  type GitHubActionsSchedule,
+  type GitHubActionsScheduledRun,
   type SyncStatusResponse,
 } from '../lib/types';
 
@@ -18,12 +20,89 @@ const INTERVAL_OPTIONS = [
   { minutes: 10080, label: '每週（7 天）' },
 ];
 
+const TAIPEI_DATE = new Intl.DateTimeFormat('zh-TW', {
+  timeZone: 'Asia/Taipei',
+  dateStyle: 'short',
+  timeStyle: 'medium',
+  hourCycle: 'h23',
+});
+
+function scheduledRunLabel(run: GitHubActionsScheduledRun): string {
+  switch (run.status) {
+    case 'in_progress': return '執行中';
+    case 'completed':
+      switch (run.conclusion) {
+        case 'success': return '成功';
+        case 'failure': return '失敗';
+        case 'cancelled': return '已取消';
+        case 'timed_out': return '逾時';
+        case 'skipped': return '已略過';
+        default: return '已結束，請查看詳情';
+      }
+    default: return '等待執行';
+  }
+}
+
+function ScheduledRunSummary({ schedule }: { schedule: GitHubActionsSchedule }) {
+  const [run, setRun] = useState<GitHubActionsScheduledRun | null | undefined>(undefined);
+  const [unavailable, setUnavailable] = useState(false);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    async function loadRun() {
+      try {
+        const response = await fetch('/api/sync/scheduled-run', { signal: controller.signal });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const result = (await response.json()) as GitHubActionsScheduledRun | null;
+        if (!controller.signal.aborted) setRun(result);
+      } catch {
+        if (!controller.signal.aborted) setUnavailable(true);
+      }
+    }
+    void loadRun();
+    return () => controller.abort();
+  }, []);
+
+  return (
+    <section className="space-y-4 rounded-xl border border-slate-200 bg-white p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h2 className="text-base font-semibold text-slate-900">同步排程</h2>
+        <a href={schedule.workflowUrl} target="_blank" rel="noreferrer"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-[#005E95] hover:underline">
+          GitHub Actions 執行紀錄
+          <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+        </a>
+      </div>
+      <dl className="grid gap-4 border-t border-slate-100 pt-4 sm:grid-cols-2">
+        <div>
+          <dt className="text-xs text-slate-500">預定同步時間</dt>
+          <dd className="mt-1 font-medium text-slate-900">每天台灣時間 {schedule.dailyTimeTaipei}</dd>
+        </div>
+        <div>
+          <dt className="text-xs text-slate-500">最近一次排程結果</dt>
+          <dd className="mt-1 text-sm text-slate-900" aria-live="polite">
+            {run ? (
+              <a href={new URL(`../runs/${run.id}`, schedule.workflowUrl).href}
+                target="_blank" rel="noreferrer" className="text-[#005E95] hover:underline">
+                {scheduledRunLabel(run)} · <time dateTime={run.createdAt}>{TAIPEI_DATE.format(new Date(run.createdAt))}</time>
+              </a>
+            ) : unavailable ? '暫時無法讀取 GitHub Actions 執行結果'
+              : run === null ? '尚無排程執行紀錄' : '正在讀取排程結果…'}
+          </dd>
+        </div>
+      </dl>
+    </section>
+  );
+}
+
 export function SyncManagerView({ onStatsChanged }: SyncManagerViewProps) {
   const [statusData, setStatusData] = useState<SyncStatusResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Schedule form state
+  const schedule = statusData?.githubActionsSchedule;
+
+  // Schedule form state for the standalone server
   const [enabled, setEnabled] = useState(true);
   const [intervalMinutes, setIntervalMinutes] = useState(1440);
   const [targetChapters, setTargetChapters] = useState<ChapterKey[]>([
@@ -206,199 +285,201 @@ export function SyncManagerView({ onStatsChanged }: SyncManagerViewProps) {
         </div>
       )}
 
-      {/* Top Row: Automated Schedule + Instant Single-Page / Batch Triggers */}
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-12 items-stretch">
-        {/* Left: Schedule Configuration */}
-        <form
-          onSubmit={handleSaveConfig}
-          className="lg:col-span-7 flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-5 space-y-5"
-        >
-          <div className="space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
-              <div>
-                <h2 className="text-base font-semibold text-slate-900">自動化同步排程設定</h2>
-                <p className="text-xs text-slate-500">
-                  定時對官方 <code className="font-mono">doc.esri.com</code> 進行 SHA-256 內容雜湊比對，偵測到異動時自動更新結構化索引並保留原始基底檔。
-                </p>
+      {schedule && <ScheduledRunSummary schedule={schedule} />}
+      {statusData && !schedule && (
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-12 items-stretch">
+          {/* Left: Schedule Configuration */}
+          <form
+            onSubmit={handleSaveConfig}
+            className="lg:col-span-7 flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-5 space-y-5"
+          >
+            <div className="space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
+                <div>
+                  <h2 className="text-base font-semibold text-slate-900">自動化同步排程設定</h2>
+                  <p className="text-xs text-slate-500">
+                    定時對官方 <code className="font-mono">doc.esri.com</code> 進行 SHA-256 內容雜湊比對，偵測到異動時自動更新結構化索引並保留原始基底檔。
+                  </p>
+                </div>
+                <label className="inline-flex cursor-pointer items-center gap-2 text-xs font-medium text-slate-700 whitespace-nowrap shrink-0">
+                  <input
+                    type="checkbox"
+                    checked={enabled}
+                    onChange={(e) => setEnabled(e.target.checked)}
+                    className="h-4 w-4 rounded border-slate-300 text-[#005E95] focus:ring-[#005E95]"
+                  />
+                  啟用自動排程
+                </label>
               </div>
-              <label className="inline-flex cursor-pointer items-center gap-2 text-xs font-medium text-slate-700 whitespace-nowrap shrink-0">
-                <input
-                  type="checkbox"
-                  checked={enabled}
-                  onChange={(e) => setEnabled(e.target.checked)}
-                  className="h-4 w-4 rounded border-slate-300 text-[#005E95] focus:ring-[#005E95]"
-                />
-                啟用自動排程
-              </label>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-12">
+                <div className="sm:col-span-4 space-y-1.5">
+                  <label htmlFor="sync-interval" className="block text-xs font-medium text-slate-700">
+                    同步頻率
+                  </label>
+                  <select
+                    id="sync-interval"
+                    value={intervalMinutes}
+                    onChange={(e) => setIntervalMinutes(Number(e.target.value))}
+                    className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-[#005E95] focus:outline-none"
+                  >
+                    {INTERVAL_OPTIONS.map((opt) => (
+                      <option key={opt.minutes} value={opt.minutes}>
+                        {opt.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="sm:col-span-3 space-y-1.5">
+                  <label htmlFor="sync-batch" className="block text-xs font-medium text-slate-700">
+                    每次巡檢頁數
+                  </label>
+                  <input
+                    id="sync-batch"
+                    type="number"
+                    min={1}
+                    max={20}
+                    value={batchSize}
+                    onChange={(e) => setBatchSize(Number(e.target.value))}
+                    className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-sm text-slate-900 tabular-nums focus:border-[#005E95] focus:outline-none"
+                  />
+                </div>
+
+                <div className="sm:col-span-5 space-y-1.5">
+                  <label htmlFor="sync-lang" className="block text-xs font-medium text-slate-700">
+                    來源語系優先序
+                  </label>
+                  <select
+                    id="sync-lang"
+                    value={preferredLanguage}
+                    onChange={(e) => setPreferredLanguage(e.target.value as 'en' | 'zh-cn')}
+                    className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-[#005E95] focus:outline-none"
+                  >
+                    <option value="en">英文最新 (en/latest)</option>
+                    <option value="zh-cn">官方中文 (zh-cn/latest)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="space-y-2">
+                <span className="block text-xs font-medium text-slate-700">監控目標章節</span>
+                <div className="flex flex-wrap gap-2">
+                  {CHAPTER_KEYS.map((key) => {
+                    const checked = targetChapters.includes(key);
+                    return (
+                      <button
+                        key={key}
+                        type="button"
+                        onClick={() => toggleChapter(key)}
+                        aria-pressed={checked}
+                        className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${
+                          checked
+                            ? 'border-[#005E95] bg-sky-50 text-[#005E95]'
+                            : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                        }`}
+                      >
+                        {CHAPTER_LABELS[key].zh} ({key})
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-12">
-              <div className="sm:col-span-4 space-y-1.5">
-                <label htmlFor="sync-interval" className="block text-xs font-medium text-slate-700">
-                  同步頻率
-                </label>
-                <select
-                  id="sync-interval"
-                  value={intervalMinutes}
-                  onChange={(e) => setIntervalMinutes(Number(e.target.value))}
-                  className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-[#005E95] focus:outline-none"
+            <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
+              <div className="text-xs text-slate-500 tabular-nums">
+                {statusData?.nextRunAt
+                  ? `下次自動巡檢：${new Date(statusData.nextRunAt).toLocaleString('zh-TW', { hour12: false })}`
+                  : '自動排程目前為停用狀態'}
+              </div>
+              <div className="flex items-center gap-3">
+                {configNotice && <span className="text-xs text-emerald-700">{configNotice}</span>}
+                <button
+                  type="submit"
+                  disabled={savingConfig}
+                  className="inline-flex items-center gap-1.5 rounded-lg bg-[#005E95] px-4 py-2 text-xs font-medium text-white hover:bg-[#004a77] disabled:opacity-50 whitespace-nowrap shrink-0"
                 >
-                  {INTERVAL_OPTIONS.map((opt) => (
-                    <option key={opt.minutes} value={opt.minutes}>
-                      {opt.label}
-                    </option>
-                  ))}
-                </select>
+                  <Save className="h-3.5 w-3.5" aria-hidden="true" />
+                  {savingConfig ? '儲存中...' : '儲存排程設定'}
+                </button>
               </div>
-
-              <div className="sm:col-span-3 space-y-1.5">
-                <label htmlFor="sync-batch" className="block text-xs font-medium text-slate-700">
-                  每次巡檢頁數
-                </label>
-                <input
-                  id="sync-batch"
-                  type="number"
-                  min={1}
-                  max={20}
-                  value={batchSize}
-                  onChange={(e) => setBatchSize(Number(e.target.value))}
-                  className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-sm text-slate-900 tabular-nums focus:border-[#005E95] focus:outline-none"
-                />
-              </div>
-
-              <div className="sm:col-span-5 space-y-1.5">
-                <label htmlFor="sync-lang" className="block text-xs font-medium text-slate-700">
-                  來源語系優先序
-                </label>
-                <select
-                  id="sync-lang"
-                  value={preferredLanguage}
-                  onChange={(e) => setPreferredLanguage(e.target.value as 'en' | 'zh-cn')}
-                  className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-[#005E95] focus:outline-none"
-                >
-                  <option value="en">英文最新 (en/latest)</option>
-                  <option value="zh-cn">官方中文 (zh-cn/latest)</option>
-                </select>
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <span className="block text-xs font-medium text-slate-700">監控目標章節</span>
-              <div className="flex flex-wrap gap-2">
-                {CHAPTER_KEYS.map((key) => {
-                  const checked = targetChapters.includes(key);
-                  return (
-                    <button
-                      key={key}
-                      type="button"
-                      onClick={() => toggleChapter(key)}
-                      aria-pressed={checked}
-                      className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${
-                        checked
-                          ? 'border-[#005E95] bg-sky-50 text-[#005E95]'
-                          : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
-                      }`}
-                    >
-                      {CHAPTER_LABELS[key].zh} ({key})
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
-            <div className="text-xs text-slate-500 tabular-nums">
-              {statusData?.nextRunAt
-                ? `下次自動巡檢：${new Date(statusData.nextRunAt).toLocaleString('zh-TW', { hour12: false })}`
-                : '自動排程目前為停用狀態'}
-            </div>
-            <div className="flex items-center gap-3">
-              {configNotice && <span className="text-xs text-emerald-700">{configNotice}</span>}
-              <button
-                type="submit"
-                disabled={savingConfig}
-                className="inline-flex items-center gap-1.5 rounded-lg bg-[#005E95] px-4 py-2 text-xs font-medium text-white hover:bg-[#004a77] disabled:opacity-50 whitespace-nowrap shrink-0"
-              >
-                <Save className="h-3.5 w-3.5" aria-hidden="true" />
-                {savingConfig ? '儲存中...' : '儲存排程設定'}
-              </button>
-            </div>
-          </div>
-        </form>
-
-        {/* Right: Manual Triggers */}
-        <div className="lg:col-span-5 flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-5 space-y-5">
-          <form onSubmit={handleSinglePageSync} className="space-y-3">
-            <div className="border-b border-slate-100 pb-3">
-              <h2 className="text-base font-semibold text-slate-900">單頁即時抓取與解析</h2>
-              <p className="text-xs text-slate-500">
-                貼上官方 <code className="font-mono">doc.esri.com</code> 網址或相對路徑，立即重新解析並覆寫索引。
-              </p>
-            </div>
-
-            <div className="space-y-1.5">
-              <label htmlFor="single-sync-path" className="block text-xs font-medium text-slate-700">
-                官方頁面路徑或 URL
-              </label>
-              <input
-                id="single-sync-path"
-                type="text"
-                value={singlePath}
-                onChange={(e) => setSinglePath(e.target.value)}
-                placeholder="https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html"
-                className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-xs text-slate-900 placeholder:text-slate-400 focus:border-[#005E95] focus:outline-none"
-              />
-            </div>
-
-            <div className="flex items-center gap-2">
-              <select
-                aria-label="單頁同步語系"
-                value={singleLang}
-                onChange={(e) => setSingleLang(e.target.value as 'en' | 'zh-cn')}
-                className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs text-slate-900 focus:border-[#005E95] focus:outline-none"
-              >
-                <option value="en">英文 latest</option>
-                <option value="zh-cn">中文 latest</option>
-              </select>
-              <button
-                type="submit"
-                disabled={syncingSingle}
-                className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-300 bg-slate-900 px-4 py-2 text-xs font-medium text-white hover:bg-slate-800 disabled:opacity-50 whitespace-nowrap shrink-0"
-              >
-                <RefreshCw
-                  className={`h-3.5 w-3.5 ${syncingSingle ? 'animate-spin' : ''}`}
-                  aria-hidden="true"
-                />
-                {syncingSingle ? '同步解析中...' : '立即抓取此頁'}
-              </button>
             </div>
           </form>
 
-          <div className="border-t border-slate-200 pt-4 space-y-2">
-            <div className="flex items-center justify-between gap-2">
-              <div>
-                <h3 className="text-sm font-semibold text-slate-900">立即執行增量批次巡檢</h3>
+          {/* Right: Manual Triggers */}
+          <div className="lg:col-span-5 flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-5 space-y-5">
+            <form onSubmit={handleSinglePageSync} className="space-y-3">
+              <div className="border-b border-slate-100 pb-3">
+                <h2 className="text-base font-semibold text-slate-900">單頁即時抓取與解析</h2>
                 <p className="text-xs text-slate-500">
-                  依照上方目標章節檢查最新 {batchSize} 頁版本異動
+                  貼上官方 <code className="font-mono">doc.esri.com</code> 網址或相對路徑，立即重新解析並覆寫索引。
                 </p>
               </div>
-              <button
-                type="button"
-                onClick={() => void handleRunBatch()}
-                disabled={runningBatch || statusData?.isRunning}
-                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-medium text-slate-800 hover:bg-slate-50 disabled:opacity-50 whitespace-nowrap shrink-0"
-              >
-                <RefreshCw
-                  className={`h-3.5 w-3.5 ${runningBatch ? 'animate-spin' : ''}`}
-                  aria-hidden="true"
+
+              <div className="space-y-1.5">
+                <label htmlFor="single-sync-path" className="block text-xs font-medium text-slate-700">
+                  官方頁面路徑或 URL
+                </label>
+                <input
+                  id="single-sync-path"
+                  type="text"
+                  value={singlePath}
+                  onChange={(e) => setSinglePath(e.target.value)}
+                  placeholder="https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html"
+                  className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 font-mono text-xs text-slate-900 placeholder:text-slate-400 focus:border-[#005E95] focus:outline-none"
                 />
-                {runningBatch ? '巡檢中...' : '執行批次巡檢'}
-              </button>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <select
+                  aria-label="單頁同步語系"
+                  value={singleLang}
+                  onChange={(e) => setSingleLang(e.target.value as 'en' | 'zh-cn')}
+                  className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs text-slate-900 focus:border-[#005E95] focus:outline-none"
+                >
+                  <option value="en">英文 latest</option>
+                  <option value="zh-cn">中文 latest</option>
+                </select>
+                <button
+                  type="submit"
+                  disabled={syncingSingle}
+                  className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-300 bg-slate-900 px-4 py-2 text-xs font-medium text-white hover:bg-slate-800 disabled:opacity-50 whitespace-nowrap shrink-0"
+                >
+                  <RefreshCw
+                    className={`h-3.5 w-3.5 ${syncingSingle ? 'animate-spin' : ''}`}
+                    aria-hidden="true"
+                  />
+                  {syncingSingle ? '同步解析中...' : '立即抓取此頁'}
+                </button>
+              </div>
+            </form>
+
+            <div className="border-t border-slate-200 pt-4 space-y-2">
+              <div className="flex items-center justify-between gap-2">
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-900">立即執行增量批次巡檢</h3>
+                  <p className="text-xs text-slate-500">
+                    依照上方目標章節檢查最新 {batchSize} 頁版本異動
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => void handleRunBatch()}
+                  disabled={runningBatch || statusData?.isRunning}
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-medium text-slate-800 hover:bg-slate-50 disabled:opacity-50 whitespace-nowrap shrink-0"
+                >
+                  <RefreshCw
+                    className={`h-3.5 w-3.5 ${runningBatch ? 'animate-spin' : ''}`}
+                    aria-hidden="true"
+                  />
+                  {runningBatch ? '巡檢中...' : '執行批次巡檢'}
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Live Synced Overrides Table */}
       <section className="rounded-xl border border-slate-200 bg-white overflow-hidden">
@@ -427,7 +508,7 @@ export function SyncManagerView({ onStatsChanged }: SyncManagerViewProps) {
                   <th className="px-4 py-2.5 font-medium">卡片變化</th>
                   <th className="px-4 py-2.5 font-medium">雜湊指紋</th>
                   <th className="px-4 py-2.5 font-medium">同步時間</th>
-                  <th className="px-5 py-2.5 font-medium text-right">操作</th>
+                  <th className="px-5 py-2.5 font-medium text-right">{schedule ? '來源' : '操作'}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
@@ -458,15 +539,17 @@ export function SyncManagerView({ onStatsChanged }: SyncManagerViewProps) {
                           來源
                           <ExternalLink className="h-3 w-3" aria-hidden="true" />
                         </a>
-                        <button
-                          type="button"
-                          onClick={() => void handleRemoveOverride(ov.path)}
-                          aria-label={`還原 ${ov.path}`}
-                          className="inline-flex items-center gap-1 text-slate-500 hover:text-red-700"
-                        >
-                          <Trash2 className="h-3.5 w-3.5" aria-hidden="true" />
-                          還原
-                        </button>
+                        {!schedule && (
+                          <button
+                            type="button"
+                            onClick={() => void handleRemoveOverride(ov.path)}
+                            aria-label={`還原 ${ov.path}`}
+                            className="inline-flex items-center gap-1 text-slate-500 hover:text-red-700"
+                          >
+                            <Trash2 className="h-3.5 w-3.5" aria-hidden="true" />
+                            還原
+                          </button>
+                        )}
                       </div>
                     </td>
                   </tr>
@@ -485,7 +568,7 @@ export function SyncManagerView({ onStatsChanged }: SyncManagerViewProps) {
 
         {!statusData || statusData.recentLogs.length === 0 ? (
           <div className="px-5 py-8 text-center text-sm text-slate-500">
-            尚無執行紀錄。可點擊上方「立即抓取此頁」或「執行批次巡檢」驗證 Esri 同步管線。
+            尚無同步執行紀錄。
           </div>
         ) : (
           <div className="overflow-x-auto">

@@ -172,7 +172,20 @@ export interface SyncRunLog {
   }>;
 }
 
+export interface GitHubActionsSchedule {
+  dailyTimeTaipei: string;
+  workflowUrl: string;
+}
+
+export interface GitHubActionsScheduledRun {
+  id: number;
+  createdAt: string;
+  status: string;
+  conclusion: string | null;
+}
+
 export interface SyncStatusResponse {
+  githubActionsSchedule?: GitHubActionsSchedule;
   config: SyncScheduleConfig;
   isRunning: boolean;
   nextRunAt: string | null;
