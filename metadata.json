@@ -1,0 +1,5 @@
+{
+  "name": "ArcGIS Pro Docs AI Gateway",
+  "description": "Structured AI-readable documentation gateway (llms.txt, llms-full.txt, REST API) and automated Esri documentation sync service for ArcGIS Pro.",
+  "requestFramePermissions": []
+}

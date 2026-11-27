@@ -1,0 +1,1447 @@
+{
+  "config": {
+    "enabled": true,
+    "intervalMinutes": 360,
+    "targetChapters": [
+      "get-started",
+      "tool-reference",
+      "arcpy"
+    ],
+    "batchSize": 5,
+    "preferredLanguage": "en",
+    "updatedAt": "2026-11-27T07:33:49.379Z"
+  },
+  "lastRunAt": "2026-11-27T07:33:50.058Z",
+  "overrides": {
+    "get-started/get-started.html": {
+      "path": "get-started/get-started.html",
+      "sourceUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+      "sourceEnUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+      "titleEn": "Introduction to ArcGIS Pro",
+      "titleZh": "入門",
+      "contentHash": "6ade16324867d24a",
+      "etag": "W/\"6de2c853afd1a08570d9cef8edf2d748\"",
+      "lastModified": "Wed, 18 Nov 2026 18:06:49 GMT",
+      "syncedAt": "2026-11-27T07:33:50.058Z",
+      "httpStatus": 200,
+      "cards": [
+        {
+          "id": "live-62c37f0fbd9b67-1",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Introduction to ArcGIS Pro",
+          "kind": "說明",
+          "text": "Released version: ArcGIS Pro 3.8"
+        },
+        {
+          "id": "live-62c37f0fbd9b67-2",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Introduction to ArcGIS Pro",
+          "kind": "說明",
+          "text": "ArcGIS Pro is a full-featured professional desktop GIS application from Esri. With ArcGIS Pro, you can explore, visualize, and analyze data; create 2D maps and 3D scenes; and share your work to ArcGIS Online or your ArcGIS Enterprise portal. The sections below introduce the sign-in process, the start page, ArcGIS Pro projects, and the user interface."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-3",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Sign in",
+          "kind": "說明",
+          "text": "The first time you use ArcGIS Pro, you sign in with the credentials of your ArcGIS Online or ArcGIS Enterprise organization. After that, you can sign in automatically."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-4",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Sign in",
+          "kind": "說明",
+          "text": "Once ArcGIS Pro starts, a sign-in menu appears at the top of the application window on the start page and in open projects. If you have more than one account, you can use the sign-in menu to change your active portal to access content or share items."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-5",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Start page",
+          "kind": "說明",
+          "text": "By default, ArcGIS Pro opens to a start page. The start page has a Home tab , a Learning Resources tab , and a Settings tab ."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-6",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Home tab",
+          "kind": "說明",
+          "text": "On the Home tab , you start new projects and open existing projects."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-7",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Home tab",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "1",
+            "Click a default template, such as the Map template, to start a new project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-8",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Home tab",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "2",
+            "Click a recent project to open it. To open a project that is not in the list, click Open another project ."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-9",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Home tab",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "3",
+            "Click List or Tiles to display projects according to your preference."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-10",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Home tab",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "4",
+            "Click a recent template to start a new project from a custom template. To start a new project from a template that's not in the list, click Start with another template ."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-11",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Learning Resources",
+          "kind": "說明",
+          "text": "On the Learning Resources tab , you can find resources to help you develop skills, solve problems, and answer questions. Learning resources can also be accessed from a side tab on the Settings page . In an open project, click the Learning Resources button on the Help tab of the ribbon."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-12",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Learning Resources",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "1",
+            "Quick-start tutorials introduce common ArcGIS Pro functionality and workflows."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-13",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Learning Resources",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "2",
+            "You can access product documentation, learning materials, training, news, and the Esri Community site."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-14",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Learning Resources",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "3",
+            "Tutorial series present learning materials related to an area of practice, such as mapping or analysis."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-15",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Learning Resources",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "4",
+            "Resources are available to help ArcMap users learn ArcGIS Pro."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-16",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "說明",
+          "text": "On the Settings tab , you configure and manage the application. In an open project, the settings can be accessed from the Project tab on the ribbon."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-17",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "New",
+            "Create a project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-18",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Open",
+            "Open an existing project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-19",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Info",
+            "View info for the current project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-20",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Save Project",
+            "Save the current project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-21",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Save Project As",
+            "Save a copy of the current project."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-22",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Portals",
+            "Manage portal connections and set the active portal."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-23",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Licensing",
+            "View license information, authorize ArcGIS Pro to work offline, and change the license type."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-24",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Authentication",
+            "Manage authentication connections."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-25",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Options",
+            "Configure project and application options."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-26",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Package Manager",
+            "Manage environments and packages for Python, R, and system libraries."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-27",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Add-In Manager",
+            "Install add-ins that provide custom functionality."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-28",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Help",
+            "Open the online or offline help system."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-29",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "About",
+            "View information about your ArcGIS Pro version and update to the latest version."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-30",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Learning Resources",
+            "Access quick-start tutorials, tutorial series, and other learning resources."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-31",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Settings",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Tab",
+            "Description"
+          ],
+          "values": [
+            "Exit",
+            "Close the application."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-32",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Projects",
+          "kind": "說明",
+          "text": "In ArcGIS Pro, a project is a body of related work that may include maps, scenes, layouts, and connections to resources such as system folders and databases. Project files have the extension .aprx. By default, a project is stored in its own folder along with an associated file geodatabase and toolbox."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-33",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "ArcGIS Pro user interface",
+          "kind": "說明",
+          "text": "The main parts of the ArcGIS Pro interface are the ribbon, views, and panes. The Introducing ArcGIS Pro quick-start tutorial helps you explore the user interface."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-34",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "說明",
+          "text": "A horizontal ribbon at the top of the application window organizes functionality in a series of tabs. Some tabs, called core tabs, are either always present or present when a certain type of view is active. For example, the Help tab is always present. The Map tab is present whenever a map view is active."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-35",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "說明",
+          "text": "Other tabs, called contextual tabs, are present when the application is in a particular state, such as when a certain type of layer or a layer with specific properties is selected in a map. For example, when you select a feature layer in the Contents pane of a map, the Feature Layer, Labeling, and Data contextual tabs appear. Contextual tabs appear on a white background."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-36",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "1",
+            "The Quick Access Toolbar has commonly used commands."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-37",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "2",
+            "Click the drop-down arrow next to the project name to see where the project is stored and its last modification date and time."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-38",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "3",
+            "Command search helps you find and run commands."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-39",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "4",
+            "Core tabs—such as the Help tab—organize functionality. When a tab is selected, its associated tools and buttons appear on the ribbon."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-40",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "5",
+            "Contextual tabs—such as the Feature Layer, Labeling, and Data tabs—appear when the application is in a state appropriate for their use."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-41",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "6",
+            "Groups organize related commands on a ribbon tab."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-42",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "7",
+            "Buttons and tools run commands. For example, the Learning Resources button accesses learning resources on the settings page."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-43",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "8",
+            "Click a dialog box launcher to open a dialog box or a pane related to items in a group."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-44",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "9",
+            "Click Ribbon Display Options to choose between the classic ribbon or a simplified ribbon. You can also collapse the ribbon and show its tabs only."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-45",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Ribbon",
+          "kind": "說明",
+          "text": "You can customize the ribbon and the Quick Access Toolbar."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-46",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Views",
+          "kind": "說明",
+          "text": "Views are windows for displaying and working with representations of your data, such as maps, scenes, layouts, tables, charts, reports, and the catalog. Many views can be open in a project, but you can only select and work with one at a time. The selected view is called the active view."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-47",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Views",
+          "kind": "說明",
+          "text": "You make a view active by clicking the tab at the top of the view window. When a view is active, its tab is blue. You can drag the active view by its tab to a different position in the ArcGIS Pro window or outside the window. Ribbon tabs and commands may change according to the type of view that is active."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-48",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "說明",
+          "text": "A pane can display the contents of a view (the Contents pane), the items in your project or active portal (the Catalog pane), or commands and settings for an area of functionality (the Symbology pane, Geoprocessing pane, Create Features pane, and so on)."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-49",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "說明",
+          "text": "Panes provide functionality that may not be available on the ribbon. They organize functionality using rows of text tabs and graphical tabs. Some panes have multiple pages."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-50",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "1",
+            "Some panes have multiple pages that you navigate with the Back button ."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-51",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "2",
+            "Text-based primary tabs, such as Gallery and Properties, organize functionality."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-52",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "3",
+            "Graphical secondary tabs partition the functionality of a primary tab."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-53",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "4",
+            "Expanders are small arrows that you click to show or hide settings."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-54",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "5",
+            "The Menu button has additional commands."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-55",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Description"
+          ],
+          "values": [
+            "6",
+            "Handles allow you to resize areas of a pane by dragging."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-56",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "說明",
+          "text": "The Contents and Catalog panes are usually open in a project. Other panes appear in response to commands or actions. For example, when you click Locate on the Map tab of the ribbon, the Locate pane appears."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-57",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "說明",
+          "text": "You can close panes or leave them open. If a pane is open when you close ArcGIS Pro, it is open when you restart the application. You can manage pane sets on the View tab of the ribbon."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-58",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Panes",
+          "kind": "說明",
+          "text": "When multiple panes are open, they can be stacked on top of each other. Icons appear on stacked panes to help you identify them. You can click a drop-down arrow to display the full name of each pane."
+        },
+        {
+          "id": "live-62c37f0fbd9b67-59",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "說明",
+          "text": "You can arrange the elements of the user interface in various ways:"
+        },
+        {
+          "id": "live-62c37f0fbd9b67-60",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "1",
+            "Collapse the ribbon and show ribbon tabs only.",
+            "Press Ctrl+F1."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-61",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "2",
+            "Scroll back and forth among multiple open views stacked in the same window.",
+            "Click the Scroll Forward and Scroll Backward buttons or scroll the mouse wheel. This functionality is available when open views overflow the active view area."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-62",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "3",
+            "Hide a pane to minimize it when not in use",
+            "Click Auto-Hide in the pane's title bar. Alternatively, press Alt+Minus Sign for options."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-63",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "4",
+            "Dock a view.",
+            "Drag a view by its tab and drop it on one of the docking targets that appear. Alternatively, right-click the view tab of a floating view or press Alt+Hyphen for options."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-64",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "5",
+            "Make a new tab group to divide view space.",
+            "Right-click a view tab or press Alt+Hyphen for options."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-65",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "6",
+            "Float a view.",
+            "Drag a view by its tab and drop it away from docking targets. Alternatively, right-click the view tab or press Alt+Hyphen for options."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-66",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "7",
+            "Minimize a floating view.",
+            "Click the minimize button on the view. To restore the view, hover over the ArcGIS Pro icon in the Windows taskbar and click the view."
+          ]
+        },
+        {
+          "id": "live-62c37f0fbd9b67-67",
+          "topic": "Introduction to ArcGIS Pro",
+          "english": "Introduction to ArcGIS Pro",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arrange the user interface",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Element",
+            "Action",
+            "Method"
+          ],
+          "values": [
+            "8",
+            "Stack panes to increase the space available for views.",
+            "Drag a pane and dock it on top of another pane so they appear as tabs within a single window."
+          ]
+        }
+      ],
+      "previousCardCount": 60,
+      "changeStatus": "updated"
+    }
+  },
+  "logs": [
+    {
+      "id": "38adcc67-e14a-47ff-aa68-cb113b508709",
+      "trigger": "manual-page",
+      "startedAt": "2026-11-27T07:33:49.804Z",
+      "finishedAt": "2026-11-27T07:33:50.058Z",
+      "status": "success",
+      "checkedCount": 1,
+      "updatedCount": 1,
+      "unchangedCount": 0,
+      "failedCount": 0,
+      "targetPaths": [
+        "get-started/get-started.html"
+      ],
+      "summary": "已成功同步 get-started/get-started.html，解析 67 張結構化卡片並即時寫入索引（版本 3.8）。",
+      "details": [
+        {
+          "path": "get-started/get-started.html",
+          "outcome": "updated",
+          "httpStatus": 200,
+          "message": "卡片數 60 → 67 (Hash 6ade16324867d24a)"
+        }
+      ]
+    }
+  ]
+}
