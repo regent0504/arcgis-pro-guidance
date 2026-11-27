@@ -47,14 +47,14 @@ curl --fail --silent --show-error --get \
 
 正式站由 Cloudflare Workers 提供介面與 API，Cloudflare R2 儲存語料及全文匯出。GitHub Actions 預定**每天台灣時間 03:30** 巡檢 Esri 文件並部署，推送至 `main` 也會觸發建置與部署。
 
-正式站的「自動同步引擎」頁面供唯讀查閱，可查看最近一次排程結果、同步紀錄與覆寫清單。具備儲存庫權限的維護者可在 GitHub Actions 手動觸發工作流程。 [GitHub Actions 執行紀錄](https://github.com/regent90/arcgis-pro-guidance/actions/workflows/sync-and-deploy.yml) · [Cloudflare 部署設定](DEPLOY-CLOUDFLARE.md)
+正式站的「自動同步引擎」頁面供唯讀查閱，可查看最近一次排程結果、同步紀錄與覆寫清單。具備儲存庫權限的維護者可在 GitHub Actions 手動觸發工作流程。 [GitHub Actions 執行紀錄](https://github.com/regent0504/arcgis-pro-guidance/actions/workflows/sync-and-deploy.yml) · [Cloudflare 部署設定](DEPLOY-CLOUDFLARE.md)
 
 ## 本機開發
 
 建議使用 Node.js 22，與 GitHub Actions 一致。
 
 ```bash
-git clone https://github.com/regent90/arcgis-pro-guidance.git
+git clone https://github.com/regent0504/arcgis-pro-guidance.git
 cd arcgis-pro-guidance
 npm ci
 npm run dev

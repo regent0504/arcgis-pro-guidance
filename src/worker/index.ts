@@ -81,7 +81,7 @@ const OVERRIDE_MAP = new Map(
 /** Free plan allows 50 subrequests per request; keep dynamic bundles well under that. */
 const MAX_DYNAMIC_BUNDLE_PAGES = 40;
 
-const GITHUB_WORKFLOW_PATH = 'regent90/arcgis-pro-guidance/actions/workflows/sync-and-deploy.yml';
+const GITHUB_WORKFLOW_PATH = 'regent0504/arcgis-pro-guidance/actions/workflows/sync-and-deploy.yml';
 const GITHUB_ACTIONS_SCHEDULE: GitHubActionsSchedule = {
   dailyTimeTaipei: '03:30',
   workflowUrl: `https://github.com/${GITHUB_WORKFLOW_PATH}`,
