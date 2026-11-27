@@ -11,7 +11,7 @@ import type {
   SyncPageOverride,
 } from '../lib/types';
 import { CHAPTER_KEYS } from '../lib/types';
-import { formatPageAsLlmMarkdown } from '../lib/docFormatter';
+import { buildPageDetail, selectFeaturedPages } from '../lib/pageDetail';
 import {
   extractChapterFromPath,
   extractRelativePathFromSourceUrl,
@@ -64,6 +64,11 @@ export class CorpusStore {
 
   isIndexReady(): boolean {
     return this.indexReady;
+  }
+
+  /** Byte ranges of a page inside its JSONL shard (used by the Cloudflare build). */
+  getPageSpan(relPath: string): { file: string; offsets: Array<[number, number]> } | undefined {
+    return this.pageSpans.get(relPath);
   }
 
   getIndexedPageCount(): number {
@@ -331,111 +336,15 @@ export class CorpusStore {
     if (!relPath) return null;
 
     const catalogEntry = this.catalogMap.get(relPath);
-    const cards = override ? override.cards : await this.readBasePageCards(relPath);
-
-    if (!catalogEntry && !override && cards.length === 0) {
-      return null;
-    }
-
-    const chapterKey = extractChapterFromPath(relPath);
-    const titleEn =
-      override?.titleEn ||
-      catalogEntry?.english[catalogEntry.english.length - 1] ||
-      cards[0]?.english ||
-      relPath;
-    const titleZh =
-      override?.titleZh ||
-      catalogEntry?.chapter[catalogEntry.chapter.length - 1] ||
-      cards[0]?.topic ||
-      titleEn;
-    const breadcrumbsEn = catalogEntry?.english ?? [chapterKey, titleEn];
-    const breadcrumbsZh = catalogEntry?.chapter ?? cards[0]?.chapter ?? [titleZh];
-    const sourceEnUrl =
-      override?.sourceEnUrl ||
-      cards[0]?.source_en ||
-      `https://doc.esri.com/en/arcgis-pro/latest/${relPath}`;
-    const sourceUrl =
-      override?.sourceUrl ||
-      cards[0]?.source ||
-      sourceEnUrl;
-    const contentVersion =
-      cards[0]?.content_version || (override ? 'live-sync' : '3.7');
-
-    const markdown = formatPageAsLlmMarkdown({
-      path: relPath,
-      titleZh,
-      titleEn,
-      breadcrumbsZh,
-      breadcrumbsEn,
-      sourceUrl,
-      sourceEnUrl,
-      contentVersion,
-      syncedAt: override?.syncedAt,
-      cards,
-    });
-
-    return {
-      path: relPath,
-      chapterKey,
-      titleZh,
-      titleEn,
-      breadcrumbsZh,
-      breadcrumbsEn,
-      sourceUrl,
-      sourceEnUrl,
-      contentVersion,
-      syncedAt: override?.syncedAt,
-      isLiveOverride: Boolean(override),
-      cardCount: cards.length,
-      cards,
-      markdown,
-    };
+    const baseCards = override ? [] : await this.readBasePageCards(relPath);
+    return buildPageDetail({ relPath, catalogEntry, baseCards, override });
   }
 
   /**
    * Lists curated featured pages across chapters for /llms.txt and UI quick shortcuts.
    */
   getFeaturedPages(): CatalogEntry[] {
-    const preferredPaths = [
-      'get-started/get-started.html',
-      'get-started/whats-new-in-arcgis-pro.html',
-      'get-started/arcgis-pro-system-requirements.html',
-      'get-started/release-notes.html',
-      'get-started/pro-quickstart-tutorials.html',
-      'help/main/welcome-to-the-arcgis-pro-app-help.html',
-      'help/projects/what-is-a-project.html',
-      'tool-reference/analysis/buffer.html',
-      'tool-reference/analysis/clip.html',
-      'tool-reference/analysis/spatial-join.html',
-      'tool-reference/data-management/project.html',
-      'tool-reference/data-management/calculate-field.html',
-      'tool-reference/conversion/feature-class-to-feature-class.html',
-      'arcpy/get-started/what-is-arcpy-.htm',
-      'arcpy/spatial-analyst/ferrousminerals.html',
-      'sdk/index.html',
-    ];
-
-    const picked: CatalogEntry[] = [];
-    const seen = new Set<string>();
-
-    for (const p of preferredPaths) {
-      const found = this.catalogMap.get(p);
-      if (found && !seen.has(found.path)) {
-        picked.push(found);
-        seen.add(found.path);
-      }
-    }
-
-    // Fill up to 24 featured pages across chapters
-    for (const entry of this.catalog) {
-      if (picked.length >= 24) break;
-      if (!seen.has(entry.path)) {
-        picked.push(entry);
-        seen.add(entry.path);
-      }
-    }
-
-    return picked;
+    return selectFeaturedPages(this.catalog, this.catalogMap);
   }
 
   /**
