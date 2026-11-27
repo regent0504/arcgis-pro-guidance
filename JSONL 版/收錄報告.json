@@ -1,0 +1,56 @@
+{
+  "official_pages": 16567,
+  "indexed_pages": 16567,
+  "cards": 173475,
+  "by_chapter": {
+    "arcpy": 1078,
+    "get-started": 135,
+    "help": 4337,
+    "sdk": 1,
+    "tool-reference": 11016
+  },
+  "by_type": {
+    "說明": 81980,
+    "表格": 39815,
+    "程式或語法": 6421,
+    "參數": 35941,
+    "有序步驟": 5144,
+    "主題說明": 18,
+    "收錄核對": 18,
+    "離線規格": 9,
+    "開發資源": 11,
+    "工具操作": 2050,
+    "版本參數表": 2050,
+    "授權": 9,
+    "環境設定": 9
+  },
+  "by_language": {
+    "官方中文轉繁體": 15966,
+    "英文機譯": 583,
+    "官方英文文件繁中編寫": 18
+  },
+  "missing": [],
+  "excluded": [],
+  "content_pages": 16567,
+  "editorial_scope_pages": [
+    "help/mapping/simulation/plume-simulation/plume-simulation.html",
+    "help/mapping/simulation/plume-simulation/essential-plume-simulation-terminology.html",
+    "help/mapping/simulation/plume-simulation/create-a-plume-simulation-scenario.html",
+    "help/mapping/simulation/plume-simulation/reconfigure-the-plume-simulation-layer.html",
+    "help/mapping/simulation/plume-simulation/add-particulates-to-a-simulation.html",
+    "help/mapping/simulation/plume-simulation/perform-plume-simulation-analysis.html",
+    "help/mapping/simulation/plume-simulation/explore-plume-simulation-results.html",
+    "help/mapping/simulation/plume-simulation/share-a-plume-simulation.html",
+    "tool-reference/intelligence/an-overview-of-the-blind-spot-toolset.html",
+    "tool-reference/intelligence/generate-blind-spot-areas.html",
+    "tool-reference/intelligence/generate-coverage-areas.html",
+    "tool-reference/intelligence/drop-zone-suitability.html",
+    "tool-reference/intelligence/generate-hlz-suitability.html",
+    "tool-reference/defense/generate-range-fans.html",
+    "tool-reference/defense/generate-range-fans-from-features.html",
+    "tool-reference/defense/linear-line-of-sight.html",
+    "tool-reference/defense/radial-line-of-sight.html",
+    "tool-reference/defense/radial-line-of-sight-and-range.html"
+  ],
+  "sdk_member_urls": 29029
+}
