@@ -1,0 +1,28 @@
+// Cloudflare Workers config for the ArcGIS Pro Docs AI Gateway.
+// Build first:  npm run build:cf   (vite → dist/, corpus indexes → .cloudflare/)
+// Local test:   npx wrangler dev
+// Deploy:       npm run deploy:cf  (uploads R2 objects, then deploys the Worker)
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arcgis-pro-guidance",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*", "/llms.txt", "/llms-full.txt", "/llms/*"]
+  },
+  "r2_buckets": [
+    { "binding": "CORPUS", "bucket_name": "arcgis-pro-guidance" }
+  ],
+  // Search/offset indexes are imported as text and parsed at Worker startup.
+  "rules": [
+    { "type": "Text", "globs": ["**/*.tsv", "**/*.jsontext"], "fallthrough": true }
+  ],
+  "vars": {
+    // Optional: set to your custom domain so llms.txt / OpenAPI links use it.
+    "PUBLIC_BASE_URL": ""
+  }
+}

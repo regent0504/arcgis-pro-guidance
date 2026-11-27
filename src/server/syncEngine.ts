@@ -44,8 +44,15 @@ export class SyncEngine {
   private timer: NodeJS.Timeout | null = null;
   private nextRunAt: string | null = null;
 
-  constructor(store: CorpusStore) {
+  private readonly autoSchedule: boolean;
+
+  /**
+   * @param options.autoSchedule Run the in-process interval timer (default true). The
+   *   GitHub Actions sync job passes false and triggers runs explicitly instead.
+   */
+  constructor(store: CorpusStore, options: { autoSchedule?: boolean } = {}) {
     this.store = store;
+    this.autoSchedule = options.autoSchedule ?? true;
     this.statePath = path.join(store.dataDir, 'sync-state.json');
     this.state = this.loadState();
     this.scheduleTimer();
@@ -89,7 +96,7 @@ export class SyncEngine {
       this.timer = null;
     }
 
-    if (!this.state.config.enabled) {
+    if (!this.state.config.enabled || !this.autoSchedule) {
       this.nextRunAt = null;
       return;
     }
