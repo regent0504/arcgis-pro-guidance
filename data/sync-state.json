@@ -11,7 +11,7 @@
     "preferredLanguage": "en",
     "updatedAt": "2026-11-27T07:33:49.379Z"
   },
-  "lastRunAt": "2026-11-27T07:33:50.058Z",
+  "lastRunAt": "2026-11-28T02:05:07.069Z",
   "overrides": {
     "get-started/get-started.html": {
       "path": "get-started/get-started.html",
@@ -1417,9 +1417,3408 @@
       ],
       "previousCardCount": 60,
       "changeStatus": "updated"
+    },
+    "get-started/whats-new-in-arcgis-pro.html": {
+      "path": "get-started/whats-new-in-arcgis-pro.html",
+      "sourceUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+      "sourceEnUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+      "titleEn": "What's new in ArcGIS Pro 3.8",
+      "titleZh": "ArcGIS Pro 3.7 的新特性",
+      "contentHash": "68ff23ef674731c4",
+      "etag": "W/\"92c9c46952f747729e4f00447e52a7a5\"",
+      "lastModified": "Wed, 18 Nov 2026 18:07:27 GMT",
+      "syncedAt": "2026-11-28T02:05:06.908Z",
+      "httpStatus": 200,
+      "cards": [
+        {
+          "id": "live-c9f8355d9c002c-1",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "What's new in ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "ArcGIS Pro 3.8 delivers productivity enhancements throughout the application, as well as new features, capabilities, and support."
+        },
+        {
+          "id": "live-c9f8355d9c002c-2",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "What's new in ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The ability to work with projects and data stored on Microsoft OneDrive in a securely managed environment is one of the key features of this release. Another is customizable global toolbars that work across views and panes to help you complete focused workflows efficiently. Writing Arcade expressions is easier with the new Arcade editor, which provides code completion and writing assistance. Your ArcGIS organization may allow access to the ArcGIS Arcade Assistant (beta), which can generate expressions from natural language requests."
+        },
+        {
+          "id": "live-c9f8355d9c002c-3",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "What's new in ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "That's just the beginning of the 300 or so improvements you'll find in this overview of new ArcGIS Pro functionality."
+        },
+        {
+          "id": "live-c9f8355d9c002c-4",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Video overview",
+          "kind": "說明",
+          "text": "This video was created by the ArcGIS Pro development teams and the product support teams to highlight new functionality in this release."
+        },
+        {
+          "id": "live-c9f8355d9c002c-5",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Use ArcGIS Pro with Microsoft OneDrive",
+          "kind": "說明",
+          "text": "Protected access is available for projects and common file types stored in Microsoft OneDrive or Microsoft SharePoint sites. Protected access is a setting enabled by an administrator that allows you to connect your OneDrive work or school account to ArcGIS Pro. Once connected, you work with OneDrive data in a managed environment that prevents users from simultaneously modifying the same files."
+        },
+        {
+          "id": "live-c9f8355d9c002c-6",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Use ArcGIS Pro with Microsoft OneDrive",
+          "kind": "說明",
+          "text": "When you open a protected project or use a protected dataset, it is checked out to you if it is ready for checkout. Files checked out to you can be accessed by others in a read-only state but can only be modified by you. When you finish your work, the files are checked back in and OneDrive syncs your changes. At that point, the files can be checked out by someone else."
+        },
+        {
+          "id": "live-c9f8355d9c002c-7",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Use ArcGIS Pro with Microsoft OneDrive",
+          "kind": "說明",
+          "text": "The Protected Access Status pane keeps track of protected files as they are checked out and checked back in. Files are marked read-only when checked out to another user. They are marked unavailable when currently being modified by another user or synced by OneDrive. Protected file types include projects, file and mobile geodatabases, shapefiles, toolboxes, most raster datasets, and style files."
+        },
+        {
+          "id": "live-c9f8355d9c002c-8",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arcade editor",
+          "kind": "說明",
+          "text": "The Arcade editor is available for writing and editing ArcGIS Arcade expressions. You can access a contextual list of available profile variables and insert them into your code. You can also access code writing assistance through the list of available functions with embedded documentation. The editor provides code completion and allows you to run expressions and then see timing information, values returned by the expression, and messages from the Console function."
+        },
+        {
+          "id": "live-c9f8355d9c002c-9",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Arcade editor",
+          "kind": "說明",
+          "text": "The ArcGIS Arcade assistant (beta) provides further assistance by using AI to generate ArcGIS Arcade expressions from instructions typed in natural language."
+        },
+        {
+          "id": "live-c9f8355d9c002c-10",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Global toolbars",
+          "kind": "說明",
+          "text": "Global toolbars allow you to keep frequently used commands and tools within easy reach, no matter which panes or views you work with. They reduce the amount of ribbon navigation needed to complete common workflows."
+        },
+        {
+          "id": "live-c9f8355d9c002c-11",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Global toolbars",
+          "kind": "說明",
+          "text": "Global toolbars complement customizable view toolbars, but are more flexible because they are independent of a particular view. They can be docked to any side of the application window or floated and placed anywhere on your monitor."
+        },
+        {
+          "id": "live-c9f8355d9c002c-12",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Global toolbars",
+          "kind": "說明",
+          "text": "To work with global toolbars, right-click on the ribbon and click Customize Global Toolbars. Alternatively, on the Help ribbon tab, in the Customize group, click Global Toolbars ."
+        },
+        {
+          "id": "live-c9f8355d9c002c-13",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Global toolbars",
+          "kind": "說明",
+          "text": "In the Customize Global Toolbars dialog box, you use one set of tools to create, delete, and rename toolbars. You use another set to add, remove, and organize toolbar commands."
+        },
+        {
+          "id": "live-c9f8355d9c002c-14",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Layout accessibility",
+          "kind": "說明",
+          "text": "Enhancements to the accessibility properties for layout elements and PDF exports make it easier to design an accessible layout. You can tag elements as decorative if they do not convey meaningful information to exclude them from the reading order for assistive technologies. Paragraph or heading tags can be assigned to text elements to provide a clear document structure. For map series, alt text can include dynamic text tags to create page-specific descriptions."
+        },
+        {
+          "id": "live-c9f8355d9c002c-15",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Layout accessibility",
+          "kind": "說明",
+          "text": "After setting the accessibility properties for layout elements, you can configure the PDF export accessibility options to create an accessible PDF. The reading order list defines how content is read by assistive technologies and reflects each element's accessibility properties: elements tagged as decorative are not included in the list and text elements display their tag type. The reading order is saved with each layout when you save the project."
+        },
+        {
+          "id": "live-c9f8355d9c002c-16",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Dynamically filter features with a spatial clause",
+          "kind": "說明",
+          "text": "Two new methods can be used to create the geometry for the spatial clause of a definition query. In addition to the static method, you can reference a fixed or dynamic set of features to filter your layers."
+        },
+        {
+          "id": "live-c9f8355d9c002c-17",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Plume simulation analysis",
+          "kind": "說明",
+          "text": "Plume simulation models the steady-state flow of air pollutants from point, line, and polygon sources, using the United States Environmental Protection Agency's AERMOD model within a defined area of interest. You can identify, visualize, and understand the impact of plumes as they move across the landscape. Common plume examples include the output from industrial plants, pollution along a road, and emissions from chemical ponds."
+        },
+        {
+          "id": "live-c9f8355d9c002c-18",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Plume simulation analysis",
+          "kind": "說明",
+          "text": "You can create one or more plume simulation layers in a scene, run the scenario, and review the results. You can adjust the scenario—for example, by increasing the wind or changing the season—to see the impact of different conditions. By default, all visible elements in the scene, including the ground surface, buildings, and other human-made structures, impact the steady-state concentration values."
+        },
+        {
+          "id": "live-c9f8355d9c002c-19",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Plume simulation analysis",
+          "kind": "說明",
+          "text": "Once the scenario is run, the results can be exported for analysis and sharing. Export formats include multidimensional CRF raster datasets, a NetCDF collection of multidimensional scientific variables, and comma-separated values."
+        },
+        {
+          "id": "live-c9f8355d9c002c-20",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Plume simulation analysis",
+          "kind": "說明",
+          "text": "Available with the Advanced license."
+        },
+        {
+          "id": "live-c9f8355d9c002c-21",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Save memory workspace data with projects",
+          "kind": "說明",
+          "text": "When you save a project, you can manage data written to a memory workspace in three ways."
+        },
+        {
+          "id": "live-c9f8355d9c002c-22",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Performance and productivity",
+          "kind": "說明",
+          "text": "The top performance and productivity improvements in ArcGIS Pro 3.8 include the following:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-23",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Bathymetry toolbox",
+          "kind": "說明",
+          "text": "The following tools are available as prototype tools that can be enabled with a batch script provided in the ArcGIS Bathymetry product files. Some of these tools were provided in the product files in earlier versions."
+        },
+        {
+          "id": "live-c9f8355d9c002c-24",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Conversion toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-25",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-26",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-27",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "The Feature Service toolset is a new toolset."
+        },
+        {
+          "id": "live-c9f8355d9c002c-28",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-29",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-30",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-31",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Management toolbox",
+          "kind": "說明",
+          "text": "Enhanced tools:"
+        },
+        {
+          "id": "live-c9f8355d9c002c-32",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Data Reviewer toolbox",
+          "kind": "說明",
+          "text": "The Reviewer Properties toolset is a new toolset."
+        },
+        {
+          "id": "live-c9f8355d9c002c-33",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Linear Referencing toolbox",
+          "kind": "說明",
+          "text": "Tools previously in the Location Referencing toolbox were moved to the Linear Referencing toolbox."
+        },
+        {
+          "id": "live-c9f8355d9c002c-34",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Maritime toolbox",
+          "kind": "說明",
+          "text": "The tools listed below are available as prototype tools that can be enabled with a batch script provided in the ArcGIS Maritime product files. Some of these tools were provided in the product files in earlier versions."
+        },
+        {
+          "id": "live-c9f8355d9c002c-35",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "ArcGIS Pro SDK",
+          "kind": "說明",
+          "text": "The ArcGIS Pro SDK for .NET allows you to extend ArcGIS Pro with your own unique tools and workflows using SDK add-ins and configurations. See What's New for Developers at 3.8."
+        },
+        {
+          "id": "live-c9f8355d9c002c-36",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Roadmap",
+          "kind": "說明",
+          "text": "To learn more about near-term, mid-term, and long-term development goals, refer to the latest ArcGIS Pro roadmap."
+        },
+        {
+          "id": "live-c9f8355d9c002c-37",
+          "topic": "What's new in ArcGIS Pro 3.8",
+          "english": "What's new in ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/whats-new-in-arcgis-pro.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Deprecated functionality",
+          "kind": "說明",
+          "text": "See Release notes for ArcGIS Pro 3.8 for information about functionality that has been removed at ArcGIS Pro 3.8 or will be removed in a future version."
+        }
+      ],
+      "previousCardCount": 158,
+      "changeStatus": "updated"
+    },
+    "get-started/release-notes.html": {
+      "path": "get-started/release-notes.html",
+      "sourceUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+      "sourceEnUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+      "titleEn": "Release notes for ArcGIS Pro 3.8",
+      "titleZh": "ArcGIS Pro 3.7 發布說明",
+      "contentHash": "b5849a19fc4ba35f",
+      "etag": "W/\"446472a61344d2593c3f1802d27f5715\"",
+      "lastModified": "Wed, 18 Nov 2026 18:07:26 GMT",
+      "syncedAt": "2026-11-28T02:05:06.964Z",
+      "httpStatus": 200,
+      "cards": [
+        {
+          "id": "live-c8cfa2eb4607fe-1",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Release notes for ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "Each major, minor, and patch release of ArcGIS Pro includes fixes for bugs that were reported to Esri Technical Support. The bugs that were fixed are reported in the Issues Addressed list."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-2",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Release notes for ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "For information about compatibility between ArcGIS Pro 3.8 and earlier releases, see Migration from ArcGIS Pro 2.x to 3.x."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-3",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Issues Addressed list",
+          "kind": "說明",
+          "text": "See the Issues Addressed list for 3.8 [PDF]."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-4",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Issues Addressed list",
+          "kind": "說明",
+          "text": "ArcGIS Pro build numbers and release dates for each release are listed on the Esri Technical Support website."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-5",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "What's new",
+          "kind": "說明",
+          "text": "Major and minor releases also include new functionality, which is described in What's new in ArcGIS Pro."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-6",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Removal and deprecation notices",
+          "kind": "說明",
+          "text": "Notices announce when functionality will be removed from a future version of ArcGIS Pro. The notices describe what will be removed so you can evaluate whether your workflows will be affected; notices also detail alternative functionality so you can find other ways to reach the same or similar results from your workflows; and they provide when the removal will occur, if known, so you can schedule updates. You can browse ArcGIS Pro deprecation notices by release on the Esri Technical Support website."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-7",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality removed at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The following functionality is removed at ArcGIS Pro 3.8."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-8",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality removed at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The Find Routes tool on the Linear Referencing tab has been removed. This functionality is replaced by the Locate Route and Measures tool."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-9",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality removed at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The tools on the Location Referencing tab have been moved to the Linear Referencing tab. The Location Referencing tab is no longer available."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-10",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality removed at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "PostgreSQL 14.x is no longer supported with ArcGIS."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-11",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality removed at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The CameraOrientation field available in the oriented imagery table is deprecated in this release. While the field will remain available and functional, it is recommended that you use other standard orientation parameters to ensure accurate, consistent behavior."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-12",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality that will be removed in future releases",
+          "kind": "說明",
+          "text": "The following functionality is scheduled to be removed in a release after ArcGIS Pro 3.8."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-13",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality that will be removed in future releases",
+          "kind": "說明",
+          "text": "The shortest path trace type is deprecated at this release. While the shortest path trace will continue to function and be available until the next major release, it is recommended that you use the path trace type to return the shortest path. The path trace provides the same functionality to return a shortest path result while offering additional capabilities to find paths in your network. The path trace is not currently supported across all platforms. Some clients, APIs, and SDKs will adopt support for the path trace in future releases."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-14",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Functionality that will be removed in future releases",
+          "kind": "說明",
+          "text": "Learn more about returning the shortest path"
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-15",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "DSM Mesh and 3D Mesh products",
+          "kind": "說明",
+          "text": "Beginning in ArcGIS Pro 3.9, the DSM Mesh and 3D Mesh options for surface products will be replaced by a single Mesh option. The new Mesh option automatically determines the appropriate mesh type based on the processing scenario. If your existing workflows rely on DSM Mesh or 3D Mesh, continue using these options in ArcGIS Pro 3.8; however, plan to update your workflows before upgrading to ArcGIS Pro 3.9, in which the new Mesh option replaces both products."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-16",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "DSM Mesh and 3D Mesh products",
+          "kind": "說明",
+          "text": "This change will affect the Reconstruct Surface geoprocessing tool, the New Reality Mapping Workspace wizard, and the Reality Mapping Products wizard."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-17",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Raster file formats",
+          "kind": "說明",
+          "text": "For changes in raster file format support, see Retired and deprecated raster file formats."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-18",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Geoprocessing tools deprecated at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The geoprocessing tools that are deprecated with this release are listed by toolbox name in the sections below."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-19",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Geoprocessing tools deprecated at ArcGIS Pro 3.8",
+          "kind": "說明",
+          "text": "The tools and toolsets in the Location Referencing toolbox have been deprecated and moved to the Linear Referencing toolbox."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-20",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "說明",
+          "text": "ArcGIS is a system that can be extended with multiple products to address many needs. Two products that are frequently used together are ArcGIS Pro and ArcGIS Enterprise. Major and minor versions of these two products are developed together and released within months of each other so that shared functionality can be introduced and improved."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-21",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "說明",
+          "text": "Although earlier and later versions of ArcGIS Pro and ArcGIS Enterprise work together for most functionality, pairing companion versions is recommended. When that isn't possible, staying within a range of two companion versions is recommended. The table below lists the companion versions."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-22",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.8",
+            "ArcGIS Enterprise 12.2"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-23",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.7",
+            "ArcGIS Enterprise 12.1"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-24",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.6",
+            "ArcGIS Enterprise 12.0"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-25",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.5",
+            "ArcGIS Enterprise 11.5"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-26",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.4",
+            "ArcGIS Enterprise 11.4"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-27",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.3",
+            "ArcGIS Enterprise 11.3"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-28",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.2",
+            "ArcGIS Enterprise 11.2"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-29",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.1",
+            "ArcGIS Enterprise 11.1"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-30",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 3.0",
+            "ArcGIS Enterprise 11.0"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-31",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "ArcGIS Pro version",
+            "ArcGIS Enterprise version"
+          ],
+          "values": [
+            "ArcGIS Pro 2.9",
+            "ArcGIS Enterprise 10.9.1"
+          ]
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-32",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Companion ArcGIS Pro and ArcGIS Enterprise versions",
+          "kind": "說明",
+          "text": "When specific minimum software version combinations are required for particular functionality, that information will be stated in the documentation for that functionality."
+        },
+        {
+          "id": "live-c8cfa2eb4607fe-33",
+          "topic": "Release notes for ArcGIS Pro 3.8",
+          "english": "Release notes for ArcGIS Pro 3.8",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/release-notes.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "ArcGIS acknowledgements",
+          "kind": "說明",
+          "text": "The acknowledgements for ArcGIS are on the Esri legal website."
+        }
+      ],
+      "previousCardCount": 34,
+      "changeStatus": "updated"
+    },
+    "get-started/arcgis-pro-system-requirements.html": {
+      "path": "get-started/arcgis-pro-system-requirements.html",
+      "sourceUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+      "sourceEnUrl": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+      "titleEn": "ArcGIS Pro 3.8 system requirements",
+      "titleZh": "ArcGIS Pro 3.7 系統要求",
+      "contentHash": "ebbffe16ff4b7e0e",
+      "etag": "W/\"c8ebb8943f776ea4d48c30b7e29cd24d\"",
+      "lastModified": "Wed, 18 Nov 2026 18:06:48 GMT",
+      "syncedAt": "2026-11-28T02:05:07.026Z",
+      "httpStatus": 200,
+      "cards": [
+        {
+          "id": "live-9469eaa9f558e5-1",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "ArcGIS Pro 3.8 system requirements",
+          "kind": "說明",
+          "text": "Before installing or upgrading ArcGIS Pro on a virtual or physical machine, ensure that your system meets the minimum requirements to run it. Also, learn what resources are recommended to get the best performance."
+        },
+        {
+          "id": "live-9469eaa9f558e5-2",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Scan your computer for compatibility",
+          "kind": "說明",
+          "text": "In addition to comparing your machine's compatibility with the requirements below, you can download an app that will scan your machine and generate a compatibility report: Verify that your computer can run ArcGIS Pro."
+        },
+        {
+          "id": "live-9469eaa9f558e5-3",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Supported operating systems",
+          "kind": "說明",
+          "text": "The software is supported on the Microsoft Windows operating systems listed below, as long as the operating system is also currently supported by its provider for general or public use."
+        },
+        {
+          "id": "live-9469eaa9f558e5-4",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Supported operating systems",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Operating system",
+            "Latest update or service pack tested"
+          ],
+          "values": [
+            "Windows 11 Home, Pro, and Enterprise (64 bit)",
+            "September 2026 update"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-5",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Supported operating systems",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Operating system",
+            "Latest update or service pack tested"
+          ],
+          "values": [
+            "Windows Server 2025 Standard and Datacenter (64 bit)",
+            "September 2026 update"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-6",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Supported operating systems",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Operating system",
+            "Latest update or service pack tested"
+          ],
+          "values": [
+            "Windows Server 2022 Standard and Datacenter (64 bit)",
+            "September 2026 update"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-7",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Supported operating systems",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Operating system",
+            "Latest update or service pack tested"
+          ],
+          "values": [
+            "Windows Server 2019 Standard and Datacenter (64 bit)",
+            "September 2026 update"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-8",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Software requirements",
+          "kind": "說明",
+          "text": "The following software must be installed separately before installing ArcGIS Pro:"
+        },
+        {
+          "id": "live-9469eaa9f558e5-9",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Software requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Software",
+            "Minimum requirement"
+          ],
+          "values": [
+            "Microsoft .NET Desktop Runtime",
+            "Microsoft .NET Desktop Runtime 10.0.0 or a later patch release (10.0.1 and so on), using a Windows x64 installer, is required. Microsoft .NET Desktop Runtime is updated frequently. It is recommended that you install the latest patches as they become available. However, installing .NET 11 or any later version doesn't fulfill this software requirement."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-10",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Software requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Software",
+            "Minimum requirement"
+          ],
+          "values": [
+            "WebView2 Runtime",
+            "Microsoft Edge WebView2 Runtime version 132 or later is required. If it is not already installed on the machine, use the Evergreen Bootstrapper or Evergreen Standalone Installer from Microsoft. Note: A per-machine installation (the default) of ArcGIS Pro requires a per-machine installation of WebView2 Runtime. To do this, right-click the WebView2 installer and click Run as administrator."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-11",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Software requirements",
+          "kind": "說明",
+          "text": "Minimum requirement"
+        },
+        {
+          "id": "live-9469eaa9f558e5-12",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "說明",
+          "text": "The minimum, recommended, and optimal requirements to run ArcGIS Pro are listed below. Minimum requirements will support the application, but may not perform well. Recommended requirements perform well in most situations. Best performance is gained using the optimal requirements."
+        },
+        {
+          "id": "live-9469eaa9f558e5-13",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "CPU",
+            "Minimum: 2 cores, simultaneous multithreading Simultaneous multithreading, or hyperthreading, of CPUs typically features 2 threads per core. A multithreaded 2-core CPU will have 4 threads available for processing, while a multithreaded 6-core CPU will have 12 threads available for processing. Full Motion Video has higher minimum and recommended CPU specifications. See Introduction to full-motion video for details."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-14",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: 4 cores"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-15",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Optimal: 10 cores"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-16",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Platform",
+            "x64"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-17",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Storage",
+            "Minimum: 32 GB of free space"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-18",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: 32 GB or more of free space on a solid-state drive (SSD)"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-19",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Memory/RAM",
+            "Minimum: 8 GB"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-20",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: 32 GB"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-21",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Optimal: 64 GB or more"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-22",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "GPU",
+            "Minimum: A supported CPU (see above) Using a configuration without any GPU leads to the emulation of one, resulting in suboptimal performance for certain visualization workflows, including 3D views."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-23",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: A discrete (not integrated) GPU that is supported by the manufacturer This provides better performance in workflows involving visualization. For more information, see the section below on General-purpose computing on a GPU."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-24",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Dedicated (not shared) graphics memory",
+            "Recommended: 8 GB or more If you're using a notebook computer with an integrated GPU, consider increasing the system RAM to compensate for the use of shared memory."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-25",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Visualization cache",
+            "The temporary visualization cache can consume up to 32 GB of space, if available, in the user-selected location. By default, the visualization cache is written to the user profile’s \\Local subfolder, so it does not roam with the user profile if roaming profiles are enabled by your system administrator."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-26",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "DirectX*",
+            "Minimum: DirectX 11, feature level 11.0, Shader Model 5.0"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-27",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: DirectX 12, feature level 12.0, Shader Model 6.0"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-28",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "OpenGL*",
+            "Minimum: OpenGL 4.3 with the ARB_clip_control and EXT_texture_compression_s3tc extensions"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-29",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: OpenGL 4.5 with the ARB_shader_draw_parameters, EXT_swap_control, EXT_texture_compression_s3tc, and EXT_texture_filter_anisotropic extensions"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-30",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Vulkan*",
+            "Minimum: Version 1.3 with VK_EXT_depth_clip_enable, VK_KHR_surface, VK_KHR_swapchain, and VK_KHR_win32_surface extensions, and depthBiasClamp, depthClamp, dynamicRendering, fillModeNonSolid, geometryShader, multiViewport, samplerAnisotropy, shaderClipDistance, synchronization2, tessellationShader, and timelineSemaphore features."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-31",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: Above requirements, plus support for VK_EXT_swapchain_colorspace and VK_EXT_transform_feedback extensions."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-32",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Screen resolution",
+            "Minimum: 1024x768"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-33",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: 1080p or higher Higher resolutions, such as 4K, require more video memory and a more powerful GPU."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-34",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "說明",
+          "text": "Supported and recommended"
+        },
+        {
+          "id": "live-9469eaa9f558e5-35",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Hardware requirements",
+          "kind": "說明",
+          "text": "* At least one of the supported APIs is required. If DirectX12 requirements are not met, Vulkan, DirectX11, or OpenGL is automatically used. You can also manually change to another rendering engine, if needed, such as when you suspect an issue with your DirectX driver. If no supported GPU is present, ArcGIS Pro will use software emulation, which will result in significant performance disadvantages."
+        },
+        {
+          "id": "live-9469eaa9f558e5-36",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "說明",
+          "text": "Support for general-purpose computing on a GPU (GPGPU) using CUDA is not required to run the software but is required to run most deep learning functionality. GPGPU can also accelerate some Spatial Analyst tools."
+        },
+        {
+          "id": "live-9469eaa9f558e5-37",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "GPU type",
+            "NVIDIA GPU with CUDA compute capability 5.0 minimum; 7.5 or later recommended. See the list of CUDA-enabled cards to determine compute capability of a GPU, or check the CUDA Compute section of the system requirements checker."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-38",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "GPU driver",
+            "NVIDIA GPU drivers: version 551.61 or later is required."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-39",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Dedicated graphics memory",
+            "Minimum: 6 GB"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-40",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Recommended: 16 GB or more"
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-41",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Item",
+            "Supported and recommended"
+          ],
+          "values": [
+            "Memory requirements depend on the model architecture and batch size being used."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-42",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "General-purpose computing on a GPU",
+          "kind": "說明",
+          "text": "Supported and recommended"
+        },
+        {
+          "id": "live-9469eaa9f558e5-43",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Licensing",
+          "kind": "說明",
+          "text": "Two license types are available for ArcGIS Pro 3.8. Depending on the type you use, you may need additional software or access to ArcGIS Online."
+        },
+        {
+          "id": "live-9469eaa9f558e5-44",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Licensing",
+          "kind": "說明",
+          "text": "The Concurrent Use license type was deprecated on July 1, 2025. See the Concurrent Use License Type and ArcGIS License Manager deprecation notice for more information."
+        },
+        {
+          "id": "live-9469eaa9f558e5-45",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Python",
+          "kind": "說明",
+          "text": "See ArcGIS Pro Python environment for more information on the Python environment for ArcGIS Pro 3.8."
+        },
+        {
+          "id": "live-9469eaa9f558e5-46",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "SDK requirements",
+          "kind": "說明",
+          "text": "The minimum requirements to create add-ins using ArcGIS Pro SDK are described in the SDK GitHub repository."
+        },
+        {
+          "id": "live-9469eaa9f558e5-47",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Virtualization",
+          "kind": "說明",
+          "text": "ArcGIS Pro supports many on-premises and cloud-based virtual desktop environments, and requires GPU acceleration for the best experience. In a properly configured, GPU-enabled environment, ArcGIS Pro performs similarly to a local workstation, providing smooth map navigation, visualization, editing, analysis and geoprocessing."
+        },
+        {
+          "id": "live-9469eaa9f558e5-48",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Virtualization",
+          "kind": "說明",
+          "text": "GPU acceleration is required for many ArcGIS Pro workflows, including map navigation, 2D and 3D visualization, editing, geoprocessing, and working with large datasets."
+        },
+        {
+          "id": "live-9469eaa9f558e5-49",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Virtualization",
+          "kind": "說明",
+          "text": "Virtualization enables ArcGIS Pro to run from centralized infrastructure or remote systems, but overall performance depends on proper sizing and configuration for the intended workload."
+        },
+        {
+          "id": "live-9469eaa9f558e5-50",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Virtualization",
+          "kind": "說明",
+          "text": "Additional setup guidance is available in the Virtualization section of the ArcGIS Pro help documentation."
+        },
+        {
+          "id": "live-9469eaa9f558e5-51",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Platform/Product",
+            "Supported environment/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "VMware vSphere",
+            "VMware vSphere 8.x with supported NVIDIA vGPU technology",
+            "Provides an excellent balance of performance, scalability, and GPU sharing for a wide range of ArcGIS Pro workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-52",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Platform/Product",
+            "Supported environment/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Citrix Virtual Apps and Desktops",
+            "GPU-enabled Citrix virtual desktops",
+            "Suitable for delivering ArcGIS Pro through full virtual desktops. Publishing ArcGIS Pro as a virtual application is not supported."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-53",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Platform/Product",
+            "Supported environment/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Microsoft Hyper-V",
+            "GPU partitioning (GPU-P) or Discrete Device Assignment (DDA)",
+            "Provides GPU-accelerated virtual desktops using shared or dedicated GPU resources for ArcGIS Pro workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-54",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "說明",
+          "text": "Platform/Product"
+        },
+        {
+          "id": "live-9469eaa9f558e5-55",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "說明",
+          "text": "Supported environment/GPU option"
+        },
+        {
+          "id": "live-9469eaa9f558e5-56",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "說明",
+          "text": "Performance notes"
+        },
+        {
+          "id": "live-9469eaa9f558e5-57",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "On-premises virtual desktop infrastructure (VDI)",
+          "kind": "說明",
+          "text": "Additional VDI guidance:"
+        },
+        {
+          "id": "live-9469eaa9f558e5-58",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Cloud platforms allow ArcGIS Pro to run on GPU-enabled virtual machines or managed desktops. Selecting the appropriate instance type helps provide responsive map navigation, visualization, editing, geoprocessing, and analysis."
+        },
+        {
+          "id": "live-9469eaa9f558e5-59",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Most GPU-enabled cloud platforms support resizing virtual machines as workload requirements change, allowing CPU, memory, and GPU resources to be increased as projects become more demanding."
+        },
+        {
+          "id": "live-9469eaa9f558e5-60",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "AWS EC2",
+            "G4dn instance family",
+            "Suitable for everyday mapping, editing, and moderate geoprocessing workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-61",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "AWS EC2",
+            "G5 instance family",
+            "Higher-performance GPU instances designed for advanced visualization, 3D scenes, geoprocessing, and analysis."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-62",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "AWS EC2",
+            "G6/G6f instance families",
+            "Next-generation GPU instances designed for demanding visualization, large datasets, complex 3D scenes, and advanced geoprocessing workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-63",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "AWS WorkSpaces",
+            "Managed GPU desktops",
+            "Managed cloud desktops that can be sized to support a wide range of ArcGIS Pro workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-64",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Google Cloud Platform Compute Engine",
+            "GPU-enabled VM instances (NVIDIA T4, L4)",
+            "Scalable GPU virtual machines suitable for ArcGIS Pro virtualization, geoprocessing, and analysis. Larger instance sizes support more demanding GIS workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-65",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Microsoft Azure virtual machines",
+            "NVads_A10 v5 series",
+            "GPU-enabled virtual machines supporting ArcGIS Pro mapping, 2D and 3D virtualization, editing, and analysis."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-66",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Microsoft Azure virtual machines",
+            "NCasT4_v3 series",
+            "GPU-enabled virtual machines suitable for visualization, geoprocessing, analysis, and compute-intensive workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-67",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Cloud platform/product",
+            "Instance type/GPU option",
+            "Performance notes"
+          ],
+          "values": [
+            "Microsoft Azure Cloud PCs (Windows 365)",
+            "Managed cloud desktops with GPU-enabled options",
+            "Managed cloud desktops that can be configured to support a wide range of ArcGIS Pro workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-68",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Cloud platform/product"
+        },
+        {
+          "id": "live-9469eaa9f558e5-69",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Instance type/GPU option"
+        },
+        {
+          "id": "live-9469eaa9f558e5-70",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Performance notes"
+        },
+        {
+          "id": "live-9469eaa9f558e5-71",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud infrastructure",
+          "kind": "說明",
+          "text": "Additional cloud guidance:"
+        },
+        {
+          "id": "live-9469eaa9f558e5-72",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "說明",
+          "text": "Some platforms allow ArcGIS Pro to be delivered through application streaming or full virtual desktops. While both deployment models are supported in certain environments, a full virtual desktop generally provides the best overall experience by offering improved GPU access, system resource availability, and session stability."
+        },
+        {
+          "id": "live-9469eaa9f558e5-73",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Platform/Product",
+            "Deployment model",
+            "Performance notes"
+          ],
+          "values": [
+            "Microsoft Azure Virtual Desktop (AVD)",
+            "GPU-enabled, full virtual desktops",
+            "Provides a scalable, GPU-enabled virtual desktop experience suitable for the full range of ArcGIS Pro workflows."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-74",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "表格",
+          "parameter": "",
+          "headers": [
+            "Platform/Product",
+            "Deployment model",
+            "Performance notes"
+          ],
+          "values": [
+            "Amazon WorkSpaces Applications",
+            "Application or desktop streaming",
+            "Provides application and desktop delivery options for ArcGIS Pro. Full virtual desktops generally offer the best user experience for visualization, editing, geoprocessing, and analysis."
+          ]
+        },
+        {
+          "id": "live-9469eaa9f558e5-75",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "說明",
+          "text": "Platform/Product"
+        },
+        {
+          "id": "live-9469eaa9f558e5-76",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "說明",
+          "text": "Deployment model"
+        },
+        {
+          "id": "live-9469eaa9f558e5-77",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "說明",
+          "text": "Performance notes"
+        },
+        {
+          "id": "live-9469eaa9f558e5-78",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Cloud application streaming and virtualization",
+          "kind": "說明",
+          "text": "Additional recommendations for cloud application streaming and virtualization:"
+        },
+        {
+          "id": "live-9469eaa9f558e5-79",
+          "topic": "ArcGIS Pro 3.8 system requirements",
+          "english": "ArcGIS Pro 3.8 system requirements",
+          "chapter": [
+            "Get Started"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "What's new",
+          "kind": "說明",
+          "text": "See What's new in ArcGIS Pro 3.8 to learn about new functionality and improvements made since the previous software release."
+        }
+      ],
+      "previousCardCount": 65,
+      "changeStatus": "updated"
+    },
+    "tool-reference/analysis/buffer.html": {
+      "path": "tool-reference/analysis/buffer.html",
+      "sourceUrl": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+      "sourceEnUrl": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+      "titleEn": "Buffer (Analysis Tools)",
+      "titleZh": "緩衝區",
+      "contentHash": "0283118382a2dc71",
+      "etag": "W/\"84075749e4a4ccc85298ecb4880207fc\"",
+      "lastModified": "Wed, 18 Nov 2026 18:40:26 GMT",
+      "syncedAt": "2026-11-28T02:05:07.069Z",
+      "httpStatus": 200,
+      "cards": [
+        {
+          "id": "live-60a4b7a5521ac2-1",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Summary",
+          "kind": "說明",
+          "text": "Creates buffer polygons around input features to a specified distance."
+        },
+        {
+          "id": "live-60a4b7a5521ac2-2",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Summary",
+          "kind": "說明",
+          "text": "Alternate tools are available for buffer operations. See the Pairwise Buffer and Graphic Buffer tool documentation for details."
+        },
+        {
+          "id": "live-60a4b7a5521ac2-3",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Summary",
+          "kind": "說明",
+          "text": "Learn more about how Buffer works"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-4",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Input Features",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Input Features",
+            "The input point, line, or polygon features that will be buffered.",
+            "Feature Layer"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-5",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Output Feature Class",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Output Feature Class",
+            "The feature class containing the output buffers.",
+            "Feature Class"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-6",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Distance [value or field]",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Distance [value or field]",
+            "The distance around the input features that will be buffered. Distances can be provided as either a value representing a linear distance or a field from the input features that contains the distance to buffer each feature. If linear units are not specified or are entered as Unknown, the linear unit of the input features' spatial reference will be used.",
+            "Linear Unit; Field"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-7",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Side Type (Optional)",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Side Type (Optional)",
+            "Specifies the sides of the input features that will be buffered. This parameter is only supported for polygon and line features. License: This optional parameter is not available with a Desktop Basic or Desktop Standard license. Full—For lines, buffers will be generated on both sides of the line. For polygons, buffers will be generated around the polygon and will contain and overlap the area of the input features. This is the default. Left—For lines, buffers will be generated on the topological left of the line. This option is not supported for polygon input features. Right—For lines, buffers will be generated on the topological right of the line. This option is not supported for polygon input features. Exclude the input polygon from buffer—For polygons, buffers will be generated outside the input polygon only (the area inside the input polygon will be erased from the output buffer). This option is not supported for line input features. Negative buffer distances are not supported.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-8",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "End Type (Optional)",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "End Type (Optional)",
+            "Specifies the shape of the buffer at the end of line input features. This parameter is not valid for polygon input features. License: This optional parameter is not available with a Desktop Basic or Desktop Standard license. Round—The ends of the buffer will be round, in the shape of a half circle. This is the default. Flat—The ends of the buffer will be flat or squared and will end at the endpoint of the input line feature.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-9",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Dissolve Type (Optional)",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Dissolve Type (Optional)",
+            "Specifies the type of dissolve that will be performed to remove buffer overlap. No Dissolve—An individual buffer for each feature will be maintained, regardless of overlap. This is the default. Dissolve all output features into a single feature—All buffers will be dissolved together into a single feature, removing any overlap. Dissolve features using the listed fields' unique values or combination of values—Any buffers sharing attribute values in the listed fields (carried over from the input features) will be dissolved.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-10",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Dissolve Field(s) (Optional)",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Dissolve Field(s) (Optional)",
+            "The list of fields from the input features on which the output buffers will be dissolved. Any buffers sharing attribute values in the listed fields (carried over from the input features) will be dissolved.",
+            "Field"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-11",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "Method (Optional)",
+          "headers": [
+            "Label",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "Method (Optional)",
+            "Specifies whether the planar or geodesic method will be used to create the buffers. Planar—If the input features are in a projected coordinate system, Euclidean buffers will be created. If the input features are in a geographic coordinate system and the buffer distance is in linear units (meters, feet, and so forth, as opposed to angular units such as degrees), geodesic buffers will be created. This is the default. You can use the Output Coordinate System environment setting to specify the coordinate system to use. For example, if the input features are in a projected coordinate system, you can set the environment to a geographic coordinate system to create geodesic buffers. Geodesic (shape preserving)—All buffers will be created using a shape-preserving geodesic buffer method, regardless of the input coordinate system.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-12",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "說明",
+          "text": "arcpy.analysis.Buffer(in_features, out_feature_class, buffer_distance_or_field, {line_side}, {line_end_type}, {dissolve_option}, {dissolve_field}, {method})"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-13",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "in_features",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "in_features",
+            "The input point, line, or polygon features that will be buffered.",
+            "Feature Layer"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-14",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "out_feature_class",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "out_feature_class",
+            "The feature class containing the output buffers.",
+            "Feature Class"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-15",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "buffer_distance_or_field",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "buffer_distance_or_field",
+            "The distance around the input features that will be buffered. Distances can be provided as either a value representing a linear distance or a field from the input features that contains the distance to buffer each feature. If linear units are not specified or are entered as Unknown, the linear unit of the input features' spatial reference will be used. When specifying a distance, if the linear unit has two words, such as Decimal Degrees, combine the two words into one (for example, 20 DecimalDegrees).",
+            "Linear Unit; Field"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-16",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "line_side (Optional)",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "line_side (Optional)",
+            "Specifies the sides of the input features that will be buffered. This parameter is only supported for polygon and line features. License: This optional parameter is not available with a Desktop Basic or Desktop Standard license. FULL—For lines, buffers will be generated on both sides of the line. For polygons, buffers will be generated around the polygon and will contain and overlap the area of the input features. This is the default. LEFT—For lines, buffers will be generated on the topological left of the line. This option is not supported for polygon input features. RIGHT—For lines, buffers will be generated on the topological right of the line. This option is not supported for polygon input features. OUTSIDE_ONLY—For polygons, buffers will be generated outside the input polygon only (the area inside the input polygon will be erased from the output buffer). This option is not supported for line input features. Negative buffer distances are not supported.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-17",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "line_end_type (Optional)",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "line_end_type (Optional)",
+            "Specifies the shape of the buffer at the end of line input features. This parameter is not valid for polygon input features. License: This optional parameter is not available with a Desktop Basic or Desktop Standard license. ROUND—The ends of the buffer will be round, in the shape of a half circle. This is the default. FLAT—The ends of the buffer will be flat or squared and will end at the endpoint of the input line feature.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-18",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "dissolve_option (Optional)",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "dissolve_option (Optional)",
+            "Specifies the type of dissolve that will be performed to remove buffer overlap. NONE—An individual buffer for each feature will be maintained, regardless of overlap. This is the default. ALL—All buffers will be dissolved together into a single feature, removing any overlap. LIST—Any buffers sharing attribute values in the listed fields (carried over from the input features) will be dissolved.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-19",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "dissolve_field [dissolve_field,...] (Optional)",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "dissolve_field [dissolve_field,...] (Optional)",
+            "The list of fields from the input features on which the output buffers will be dissolved. Any buffers sharing attribute values in the listed fields (carried over from the input features) will be dissolved.",
+            "Field"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-20",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Parameters",
+          "kind": "參數",
+          "parameter": "method (Optional)",
+          "headers": [
+            "Name",
+            "Explanation",
+            "Data type"
+          ],
+          "values": [
+            "method (Optional)",
+            "Specifies whether the planar or geodesic method will be used to create the buffers. PLANAR—If the input features are in a projected coordinate system, Euclidean buffers will be created. If the input features are in a geographic coordinate system and the buffer distance is in linear units (meters, feet, and so forth, as opposed to angular units such as degrees), geodesic buffers will be created. This is the default. You can use the Output Coordinate System environment setting to specify the coordinate system to use. For example, if the input features are in a projected coordinate system, you can set the environment to a geographic coordinate system to create geodesic buffers. GEODESIC—All buffers will be created using a shape-preserving geodesic buffer method, regardless of the input coordinate system.",
+            "String"
+          ]
+        },
+        {
+          "id": "live-60a4b7a5521ac2-21",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "說明",
+          "text": "Buffer example 1 (Python window)"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-22",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "說明",
+          "text": "The following Python window script demonstrates how to use the Buffer function."
+        },
+        {
+          "id": "live-60a4b7a5521ac2-23",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "程式或語法",
+          "text": "import arcpy\narcpy.env.workspace = \"C:/data\"\narcpy.analysis.Buffer(\"roads\", \"C:/output/majorrdsBuffered\", \"100 Feet\", \"FULL\",\n                      \"ROUND\", \"LIST\", \"Distance\")"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-24",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "說明",
+          "text": "Buffer example 2 (stand-alone script)"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-25",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "說明",
+          "text": "Find areas of suitable vegetation that exclude areas heavily impacted by major roads."
+        },
+        {
+          "id": "live-60a4b7a5521ac2-26",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Code sample",
+          "kind": "程式或語法",
+          "text": "# Name: Buffer.py\n# Description: Find areas of suitable vegetation that exclude areas heavily\n# impacted by major roads\n\n# Import system modules\nimport arcpy\n\n# Set environment settings\narcpy.env.workspace = \"C:/data/Habitat_Analysis.gdb\"\n\n# Select suitable vegetation patches from all vegetation\nveg = \"vegtype\"\nsuitableVeg = \"C:/output/Output.gdb/suitable_vegetation\"\nwhereClause = \"HABITAT = 1\"\narcpy.analysis.Select(veg, suitableVeg, whereClause)\n\n# Buffer areas of impact around major roads\nroads = \"majorrds\"\nroadsBuffer = \"C:/output/Output.gdb/buffer_output\"\ndistanceField = \"Distance\"\nsideType = \"FULL\"\nendType = \"ROUND\"\ndissolveType = \"LIST\"\ndissolveField = \"Distance\"\narcpy.analysis.Buffer(roads, roadsBuffer, distanceField, sideType, endType,\n                      dissolveType, dissolveField)\n\n# Erase areas of impact around major roads from the suitable vegetation patches\neraseOutput = \"C:/output/Output.gdb/suitable_vegetation_minus_roads\"\nxyTol = \"1 Meters\"\narcpy.analysis.Erase(suitableVeg, roadsBuffer, eraseOutput, xyTol)"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-27",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Environments",
+          "kind": "說明",
+          "text": "Default Output Z Value, M Resolution, M Tolerance, Output M Domain, Output XY Domain, Output Z Domain, Output Coordinate System, Extent, Parallel Processing Factor, Current Workspace, Geographic Transformations, Scratch Workspace, Output has M values, Output has Z values, XY Resolution, XY Tolerance, Z Resolution, Z Tolerance, Transfer Geodatabase Field Properties"
+        },
+        {
+          "id": "live-60a4b7a5521ac2-28",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Special cases",
+          "kind": "說明",
+          "text": "This tool honors the Parallel Processing Factor environment. If the environment is not set (the default) or is set to 0, parallel processing will be disabled; parallel processing will not be used and processing will be done sequentially. Setting the environment to 100 will enable parallel processing; parallel processing will be used and processing will be done in parallel. Up to 10 cores will be used when parallel processing is enabled."
+        },
+        {
+          "id": "live-60a4b7a5521ac2-29",
+          "topic": "Buffer (Analysis Tools)",
+          "english": "Buffer (Analysis Tools)",
+          "chapter": [
+            "Tool Reference"
+          ],
+          "source": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "source_en": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/analysis/buffer.html",
+          "content_version": "3.8",
+          "source_language": "en",
+          "section": "Special cases",
+          "kind": "說明",
+          "text": "The Parallel Processing Factor environment is only supported when buffering line and polygon features."
+        }
+      ],
+      "previousCardCount": 31,
+      "changeStatus": "updated"
     }
   },
   "logs": [
+    {
+      "id": "93e2385b-b82f-4768-8b8c-47762c2b17da",
+      "trigger": "scheduled",
+      "startedAt": "2026-11-28T02:05:06.543Z",
+      "finishedAt": "2026-11-28T02:05:07.069Z",
+      "status": "success",
+      "checkedCount": 5,
+      "updatedCount": 4,
+      "unchangedCount": 1,
+      "failedCount": 0,
+      "targetPaths": [
+        "get-started/get-started.html",
+        "get-started/whats-new-in-arcgis-pro.html",
+        "get-started/release-notes.html",
+        "get-started/arcgis-pro-system-requirements.html",
+        "tool-reference/analysis/buffer.html"
+      ],
+      "summary": "已檢查 5 頁：更新 4 頁、無異動 1 頁、失敗 0 頁。",
+      "details": [
+        {
+          "path": "get-started/get-started.html",
+          "outcome": "unchanged",
+          "httpStatus": 200,
+          "message": "未變更 (67 張卡片)"
+        },
+        {
+          "path": "get-started/whats-new-in-arcgis-pro.html",
+          "outcome": "updated",
+          "httpStatus": 200,
+          "message": "已更新：158 → 37 張卡片"
+        },
+        {
+          "path": "get-started/release-notes.html",
+          "outcome": "updated",
+          "httpStatus": 200,
+          "message": "已更新：34 → 33 張卡片"
+        },
+        {
+          "path": "get-started/arcgis-pro-system-requirements.html",
+          "outcome": "updated",
+          "httpStatus": 200,
+          "message": "已更新：65 → 79 張卡片"
+        },
+        {
+          "path": "tool-reference/analysis/buffer.html",
+          "outcome": "updated",
+          "httpStatus": 200,
+          "message": "已更新：31 → 29 張卡片"
+        }
+      ]
+    },
     {
       "id": "38adcc67-e14a-47ff-aa68-cb113b508709",
       "trigger": "manual-page",
